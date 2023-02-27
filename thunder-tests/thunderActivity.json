@@ -1,0 +1,130 @@
+[
+  {
+    "_id": "587fcd01-f61c-4311-987e-1add1a420379",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/",
+    "url": "http://127.0.0.1:8000/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-27T09:39:06.138Z",
+    "modified": "2023-02-27T09:39:06.138Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "23e36090-b823-42f8-8bd4-3ca8fcfec374",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/",
+    "url": "http://127.0.0.1:8000/api/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-27T09:39:13.305Z",
+    "modified": "2023-02-27T09:43:15.987Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"user1\",\n  \"password\": \"Qwerty!QAZ\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "310e229a-a822-47b7-9f7b-3b6271d3938d",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/users/",
+    "url": "http://127.0.0.1:8000/users/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-27T09:39:21.877Z",
+    "modified": "2023-02-27T09:39:21.877Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "38745adb-ae75-42bb-a90e-f26a45b50b2a",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/users/",
+    "url": "http://127.0.0.1:8000/users/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-27T09:40:23.378Z",
+    "modified": "2023-02-27T09:40:23.378Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"user1\",\n  \"password\": \"user1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "82ece006-eb03-4780-a711-7dcd33de85e9",
+    "colId": "history",
+    "containerId": "",
+    "name": "Create user1",
+    "url": "http://127.0.0.1:8000/api/users/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-27T09:40:52.351Z",
+    "modified": "2023-02-27T09:41:40.663Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"user1\",\n  \"password\": \"Qwerty!QAZ\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4d16f00c-c4f1-4dce-a470-3926c220b9f2",
+    "colId": "history",
+    "containerId": "",
+    "name": "Auth token for user1",
+    "url": "http://127.0.0.1:8000//api/token/login/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-27T09:44:19.958Z",
+    "modified": "2023-02-27T09:44:19.958Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"user1\",\n  \"password\": \"Qwerty!QAZ\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "923bb12d-aae2-43b6-b283-e676610d029e",
+    "colId": "history",
+    "containerId": "",
+    "name": "Create black cat with image",
+    "url": "http://127.0.0.1:8000/api/cats/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-27T09:45:51.193Z",
+    "modified": "2023-02-27T09:52:00.029Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Снежок11\",\n    \"color\": \"#000000\",\n    \"birth_year\": \"2020\",\n    \"owner\": \"2\",\n    \"achievements\": [\n        {\"achievement_name\": \"Поймал мышь\"},\n        {\"achievement_name\": \"Разбил вазу\"}\n    ]\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "6e7859cafecc83dd1845b8f4b348b5978be0d637",
+      "bearerPrefix": "Token"
+    },
+    "tests": []
+  }
+]
